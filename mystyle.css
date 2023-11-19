@@ -1,0 +1,339 @@
+
+
+body {
+
+    background-color: #0050a6;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+    padding: 2em 1em 4em;
+    overflow-y: scroll;
+
+}
+
+.whitefont {
+    color: rgb(255, 255, 255);
+
+}
+
+@font-face {
+    font-family: chunkfiveregular;
+    src: url(chunkfive-regular.otf);
+  }
+
+  h1, h2 {
+    font-family: chunkfiveregular;
+    font-weight:normal;
+    line-height: 120%;
+    letter-spacing: 0px;
+    margin: 0.5em 0;
+  }
+
+.cont {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.fortherevieuwer {
+    border: #0390ee;
+    border-style: dashed;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+    border-width: 4px;
+
+}
+
+.fortherevieuwer:hover {
+    border: #f01111;
+    border-style: dashed;
+    border-width: 4px;
+
+}
+
+
+.continside {
+    position: absolute;
+    right: 1%;
+    top: 1%;
+    color: red;
+    text-decoration: none;
+
+}
+
+.smlrclt {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px 10px 40px 10px;
+    border: 1px solid #f0f2f3;
+    border-radius: 31px;
+}
+
+.abzc {
+    text-align: center;
+}
+
+.greeting {
+    font-weight: bold;
+    line-height: 120%;
+    letter-spacing: 0px;
+    margin: 0.5em 0;
+    font-size: 1.3rem;
+    padding: 2vw;
+}
+
+.btnred {
+
+    background-color: darkred;
+    color: black;
+    padding: 6px;
+    margin: 3px;
+    cursor: pointer;
+    border: 2px solid darkred;
+    border-radius: 5px;
+    text-decoration: none;
+    color: aliceblue;
+    box-shadow: #c5acac 4px 4px 4px 4px;
+    font-family: chunkfiveregular;
+    font-weight:normal;
+    text-shadow: rgb(14, 13, 13) 2px 2px;
+    font-size: 1rem;
+}
+
+.btnred:hover {
+    cursor: pointer;
+    background-color: rgb(158, 24, 24);
+  
+    
+}
+
+
+
+.btnver {
+
+    /* background-color: #8ecdffad; */
+    color: black;
+    padding: 0;
+    margin: 0;
+    /* border: 2px solid #0a183f;
+    border-radius: 5px; */
+    text-decoration: none;
+    font-family: chunkfiveregular;
+    font-weight:normal;
+}
+
+
+.btnver:hover {
+    cursor: pointer;
+    color: #0390ee;
+ 
+
+}
+
+
+
+
+.aanafwijzig {
+    /* font-family: chunkfiveregular; */
+    /* font-weight:normal; */
+    font-weight: bold;
+    text-transform: uppercase;
+    /* -webkit-text-stroke: 1px black; */
+    text-shadow: rgb(58, 56, 55) 1px 1px;
+}
+
+
+.tblcnt {
+    width: 100%;
+ 
+    justify-content: center;
+    display: flex;
+}
+
+table {
+    background-color: #45a0f8;
+    border-collapse: collapse;
+
+  
+}
+
+td {
+    border: 2px solid #192D68; 
+    padding: 1rem;
+    background-color: #ffffff;
+}
+
+th {
+    font-size: medium;
+    border: 2px solid #192D68;
+    text-transform: uppercase;
+    padding: 1rem;
+    color: #f0f2f3;
+   text-shadow: rgb(109, 106, 105) 2px 2px;
+
+}
+
+a {
+    color: antiquewhite;
+    font-family: 'robotobold';
+}
+
+.btn {
+text-transform: uppercase;
+    background-color: #45a0f8;
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(255, 255, 255) 2px 1px 1px;
+   
+    margin: 3px;
+    border: 2px solid  #45a0f8;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: chunkfiveregular;
+    font-weight:normal;
+    line-height: 1rem;
+    cursor: pointer;
+
+    padding: 0.5rem;
+font-size: 1rem;
+
+
+
+
+}
+
+
+
+.fullscreenlogomineral {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 25px; 
+   
+
+
+}
+.fadein {
+
+animation: fadeIn 1s; }
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.randimg {
+ 
+    max-height: 500px;
+    padding-top: 10px;
+    border: 1px #fff;
+    border-radius: 33px;
+}
+
+
+@media (max-width: 780px) {
+
+
+    
+    td {
+       
+        padding: .1rem;
+        text-align: center;
+        font-weight: 600;
+
+    }
+    
+    th {
+      
+        padding: .1rem;
+
+       
+    }
+
+    .smlrclt {
+width: 100%;
+margin: 2rem 1rem 1rem 1rem;
+padding: 2rem 2rem 3rem 2rem;
+overflow: hidden;
+
+
+    }
+
+
+    .tblcnt {
+font-size: medium!important;
+
+    }
+
+
+
+
+    body {
+font-size: 1.5em;
+
+    }
+
+    .btnver {
+
+        text-transform: uppercase;
+    }
+
+    .fullscreenlogomineral {
+        width: 107%;
+        margin-top: -4.9vw;
+    
+    }
+
+
+    .fortherevieuwer {
+        
+        margin: 1vw;
+        border-width: 8px;
+        padding: 5vw;
+       
+    }
+
+    .fortherevieuwer:hover { 
+
+        margin: 1vw;
+        border-width: 8px;
+        padding: 5vw;
+    }
+
+    body {
+        padding: 1em 1em 0em;
+
+    }
+
+    .greeting {
+font-size: 2rem;
+
+     }
+
+
+     .btn {
+        padding:  0.8rem;
+font-size: 1.6rem;
+     }
+
+
+     .btnred {
+        /* padding:  0.8rem; */
+font-size: 1.3rem;
+     }
+
+
+}
+
+
+ 
